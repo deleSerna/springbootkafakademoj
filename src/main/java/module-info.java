@@ -5,10 +5,12 @@ open module kafkademo {
 	requires spring.web;
 	requires spring.core;
 	requires spring.beans;
-	requires org.slf4j;
-	requires java.net.http;
-	requires spring.kafka;
-	requires kafka.clients;
+	// requires org.slf4j;
+	// requires java.net.http;
+	// requires spring.kafka;
+	// requires kafka.clients;
 	requires java.instrument;
 	requires spring.messaging;
+	requires slf4j.api;
+	requires java.sql;
 }
